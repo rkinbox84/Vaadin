@@ -1,0 +1,71 @@
+@import "mytheme.scss";
+@import "addons.scss";
+
+// This file prefixes all rules with the theme name to avoid causing conflicts with other themes.
+// The actual styles should be defined in mytheme.scss
+
+.mytheme {
+  @include addons;
+  @include mytheme;
+
+.v-checkbox { 
+	font-size: 13px !important;
+	color: #8080ff !important;
+}
+
+.v-panel-caption {
+	 color: #ffffff !important;
+	 background:#01a8df !important;
+	 font-size: 20px !important;
+
+}
+
+.v-textfield { 
+	 height: 30px !important;
+}
+
+.v-filterselect { 
+	height: 30px !important;
+}
+
+.v-field{
+	font-family: "Courier New", Courier, monospace;
+    color:blue;
+}
+.v-dtype{
+	font-family: "Courier New", Courier, monospace;
+    color : #DC143C;
+}
+
+.v-window .v-window-header {
+	font-size: 20px !important;
+    text-align: center !important;
+    color: #ffffff !important;
+    background:#ff8000 !important;    
+}
+
+.v-button {
+  color: #01a8df;
+  background: #ffffff;
+  border: 1px solid #ff9900;
+  height: 30px;
+  font-family:Trebuchet MS;
+  font-weight: bold;
+
+
+}
+.v-button-home {
+  height: 40px;
+  text-align: center;
+  padding: 0;
+
+}
+
+.v-button-inst {
+  height: 30px;
+  text-align: center;
+  padding: 0;
+
+}
+
+}
